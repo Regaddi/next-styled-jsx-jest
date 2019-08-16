@@ -1,0 +1,25 @@
+{
+    "env": {
+      "production": {
+        "presets": [
+            "@babel/preset-env",
+            "@babel/preset-react"
+        ],
+        "plugins": ["styled-jsx/babel"]
+      },
+      "development": {
+        "presets": [
+            "@babel/preset-env",
+            "@babel/preset-react"
+        ],
+        "plugins": ["styled-jsx/babel"]
+      },
+      "test": {
+        "presets": [
+            "@babel/preset-env",
+            "@babel/preset-react"
+        ],
+        "plugins": ["styled-jsx/babel-test"]
+      }
+    }
+  }
